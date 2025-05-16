@@ -1,7 +1,7 @@
-# 🧠 Multilingual Sentiment Analysis (NPPE-1 Competition)
+# 🧠 Multilingual Sentiment Analysis Project
 
 ## 🚀 Overview
-This project is developed as part of the **NPPE-1 Multilingual Sentiment Analysis Competition** hosted on Kaggle. The goal is to fine-tune the **LLaMA 3.1-8B-Instruct** model to classify text sentiment (Positive or Negative) across **13 Indian languages** using **LoRA-based parameter-efficient fine-tuning**, all within **Kaggle Notebook constraints**.
+This project is developed as part of the **Multilingual Sentiment Analysis Competition** hosted on Kaggle. The goal is to fine-tune the **LLaMA 3.1-8B-Instruct** model to classify text sentiment (Positive or Negative) across **13 Indian languages** using **LoRA-based parameter-efficient fine-tuning**, all within **Kaggle Notebook constraints**.
 
 ## 🏁 Competition Timeline
 - **Start:** February 14, 2025  
