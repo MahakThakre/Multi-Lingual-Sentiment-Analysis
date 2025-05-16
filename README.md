@@ -13,15 +13,18 @@ This project is developed as part of the **Multilingual Sentiment Analysis Compe
   - **No external data or local training allowed**  
   - **Kaggle Notebooks only**
 
-## 🛠️ Technologies & Tools
-- [LLaMA 3.1-8B-Instruct](https://huggingface.co/meta-llama)
-- [Unsloth](https://github.com/unslothai/unsloth)
-- [LoRA (Low-Rank Adaptation)](https://arxiv.org/abs/2106.09685)
-- [Hugging Face Transformers](https://huggingface.co/transformers)
-- [Datasets](https://huggingface.co/docs/datasets)
-- [Pandas](https://pandas.pydata.org/)
-- [Scikit-learn](https://scikit-learn.org/)
-- [Kaggle Notebook](https://www.kaggle.com/code)
+- ### 🔧 Technologies Used and Their Roles
+
+| Technology                | Purpose / Where It Was Used                                                                 |
+|--------------------------|---------------------------------------------------------------------------------------------|
+| **[LLaMA 3.1-8B-Instruct](https://huggingface.co/meta-llama)** | Main instruction-tuned language model used for generating answers based on the input prompt. |
+| **[Unsloth](https://github.com/unslothai/unsloth)**              | Efficient fine-tuning of the LLaMA 3.1-8B model using QLoRA, reducing training time and memory usage. |
+| **[LoRA](https://arxiv.org/abs/2106.09685)** (Low-Rank Adaptation) | Applied to fine-tune large language models efficiently by freezing base weights and adapting only low-rank matrices. |
+| **[Hugging Face Transformers](https://huggingface.co/transformers)** | Used to load and run the LLaMA model, manage tokenizer, and integrate Unsloth for training and inference. |
+| **[Datasets](https://huggingface.co/docs/datasets)** | Used to load, preprocess, and manage dataset splits (train/validation) for model training. |
+| **[Pandas](https://pandas.pydata.org/)**               | Employed for data manipulation, EDA (exploratory data analysis), and converting CSVs to required formats. |
+| **[Scikit-learn](https://scikit-learn.org/)**         | Used for computing evaluation metrics like F1 score and for additional preprocessing tools. |
+| **[Kaggle Notebook](https://www.kaggle.com/code)**      | Entire development, experimentation, and final submissions were done using Kaggle’s GPU-powered notebooks. |
   
 ## 🧾 Dataset
 - **Train File:** `train.csv`  
