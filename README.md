@@ -14,15 +14,15 @@ This project is developed as part of the **NPPE-1 Multilingual Sentiment Analysi
   - **Kaggle Notebooks only**
 
 ## 🛠️ Technologies & Tools
-- LLaMA 3.1-8B-Instruct
-- Unsloth (https://github.com/unslothai/unsloth)
-- LoRA (Low-Rank Adaptation)
-- Hugging Face Transformers
-- Datasets
-- Pandas
-- Scikit-learn
-- Kaggle Notebook
-
+- [LLaMA 3.1-8B-Instruct](https://huggingface.co/meta-llama)
+- [Unsloth](https://github.com/unslothai/unsloth)
+- [LoRA (Low-Rank Adaptation)](https://arxiv.org/abs/2106.09685)
+- [Hugging Face Transformers](https://huggingface.co/transformers)
+- [Datasets](https://huggingface.co/docs/datasets)
+- [Pandas](https://pandas.pydata.org/)
+- [Scikit-learn](https://scikit-learn.org/)
+- [Kaggle Notebook](https://www.kaggle.com/code)
+  
 ## 🧾 Dataset
 - **Train File:** `train.csv`  
 - **Test File:** `test.csv`  
